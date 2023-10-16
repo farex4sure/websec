@@ -35,17 +35,17 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
                             </div>
                             <div class="flex w-full justify-between mt-4">
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                            </div>
-                            <div class="flex w-full justify-between mt-4">
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">m****e@'.$domain.' |</p>
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
                             </div>
                             <div class="flex w-full justify-between mt-4">
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">f****x@'.$domain.' |</p>
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
+                            </div>
+                            <div class="flex w-full justify-between mt-4">
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">y****3@'.$domain.' |</p>
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
                             </div>
                         </a>
@@ -61,22 +61,16 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
                                 <p class=" text-gray-700 dark:text-gray-400 font-bold">Price</p>
                             </div>
                             <div class="flex w-full justify-between mt-4">
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">'.$domain.'</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">Possible Customer</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">Russian Market</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">On Sale</p>
                             </div>
                             <div class="flex w-full justify-between mt-4">
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                            </div>
-                            <div class="flex w-full justify-between mt-4">
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">'.$domain.' <br> webmail.'.$domain.'</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">Possible Employee</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">Russian Market</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">On Sale</p>
                             </div>
                         </a>
                     </div>
