@@ -1,0 +1,22 @@
+{
+  "short_name": "JSecurity",
+  "name": "JSecurity",
+  "description": "JSecurity - Cyber Security/IT Networking - We make your network a better and safer place!",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fffcf9",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#fffcf9"
+}
