@@ -7,6 +7,40 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
     $date = time();
     $date = date("d M Y",$date);
 
+    $emails = array(
+        "k****j@".$domain."",
+        "s****h@".$domain."",
+        "m****s@".$domain."",
+        "e****n@".$domain."",
+        "c****n@".$domain."",
+        "l****h@".$domain."",
+        "a****p@".$domain."",
+        "o****d@".$domain."",
+        "d****q@".$domain."",
+        "s****m@".$domain."",
+        "y****o@".$domain."",
+        "m****o@".$domain."",
+        "c****d@".$domain."",
+        "k****t@".$domain."",
+        "c****b@".$domain."",
+        "a****b@".$domain."",
+        "g****s@".$domain."",
+        "s****s@".$domain.""
+    );
+    // Select a random index
+    $randomIndex1 = array_rand($emails);
+    $randomEmail1 = $emails[$randomIndex1];
+
+    
+    // Select a random index
+    $randomIndex2 = array_rand($emails);
+    $randomEmail2 = $emails[$randomIndex2];
+
+    
+    // Select a random index
+    $randomIndex3 = array_rand($emails);
+    $randomEmail3 = $emails[$randomIndex3];
+
     echo '
     <div class="w-full flex flex-col h-full gap-y-3">
                     <div class="flex w-full flex-col">
@@ -35,17 +69,17 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
                             </div>
                             <div class="flex w-full justify-between mt-4">
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">m****e@'.$domain.' |</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">'.$randomEmail1.' |</p>
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
                             </div>
                             <div class="flex w-full justify-between mt-4">
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">f****x@'.$domain.' |</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">'.$randomEmail2.' |</p>
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
                             </div>
                             <div class="flex w-full justify-between mt-4">
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">2023-08-26</p>
-                                <p class=" text-gray-700 dark:text-gray-400 font-normal">y****3@'.$domain.' |</p>
+                                <p class=" text-gray-700 dark:text-gray-400 font-normal">'.$randomEmail3.' |</p>
                                 <p class=" text-gray-700 dark:text-gray-400 font-normal">COMBOLIST</p>
                             </div>
                         </a>
